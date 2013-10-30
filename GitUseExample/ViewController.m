@@ -25,5 +25,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)buttonClick:(UIButton *)sender {
+    
+    NSLog(@"clicked the button");
+}
 
 @end
